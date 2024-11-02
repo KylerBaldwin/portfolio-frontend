@@ -6,21 +6,22 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='flex justify-between items-center h-16 w-full mx-auto px-4 bg-gray-100 shadow-md'>
-                <h1 className='w-full text-2xl font-semibold'>Kyler Baldwin</h1>
+        <div className='flex justify-between items-center h-14 w-full mx-auto px-8 bg-white shadow-md border-b-2 border-gray-200'>
+                <h1 className=' text-2xl font-serif'>Kyler Baldwin</h1>
                 <ul className='hidden md:flex'>
-                    <li className='p-4'>Home</li>
-                    <li className='p-4'>Blog</li>
-                    <li className='p-4'>Projects</li>
+                    <li className='m-4 font-serif'>Home</li>
+                    <li className='m-4 font-serif'>About Me</li>
+                    <li className='m-4 font-serif'>Projects</li>
+                    <li className='m-4 font-serif'>Contact</li>
                 </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {!nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
             </div>
-            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-white-600 bg-gray-400 ease-in-out duration-500 md:hidden' : 'fixed left-[-100%]'}>
+            <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-white-600 bg-white ease-in-out duration-500 md:hidden' : 'fixed left-[-100%]'}>
                 <h1 className='w-full text-3xl m-4'>Kyler Baldwin</h1>
                 <ul className='p-4'>
-                    <li className='py-4 border-b border-white-600'>Home</li>
-                    <li className='py-4 border-b border-white-600'>Blog</li>
+                    <li className='py-4 border-b border-gray-600'>Home</li>
+                    <li className='py-4 border-b border-gray-600'>Blog</li>
                     <li className='py-4'>Projects</li>
                 </ul>
             </div>
