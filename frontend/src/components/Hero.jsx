@@ -12,7 +12,7 @@ const Hero = () => {
               Coming Soon!
             </h1>
             <p className="mt-8 text-pretty text-lg font-serif font-medium text-gray-500 sm:text-xl/8">
-              My Portfolio Website is currently under construction. Lots of cool things in the works! In the meatime, connect with me on LinkedIn:
+              My Portfolio Website is currently under construction.<br/>In the meatime, connect with me on LinkedIn:
             </p>
             <div className="flex items-center justify-center gap-x-6">
               <a
