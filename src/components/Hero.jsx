@@ -2,28 +2,19 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='bg-white'>
-      <div className="relative isolate px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-3xl py-16">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          </div>
-          <div className="text-center">
-            <h1 className="text-balance text-5xl font-serif tracking-tight text-gray-900 sm:text-7xl">
-              Coming Soon!
-            </h1>
-            <p className="mt-8 text-pretty text-lg font-serif font-medium text-gray-500 sm:text-xl/8">
-              My Portfolio Website is currently under construction.<br/>In the meatime, connect with me on LinkedIn:
-            </p>
-            <div className="flex items-center justify-center gap-x-6">
-              <a
-                href="https://www.linkedin.com/in/kyler-baldwin"
-                className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-white"
-              >
-                <img src="/In-Blue-26-Γö¼┬½@2x.png" alt="" className='pl-2 object-fill' />
-              </a>
-            </div>
-          </div>
-        </div>
+    <div className="px-14 lg:px-20 containter align-baseline py-36">
+      <h1 className='py-4 text-5xl font-bold'>Kyler Baldwin</h1>
+      <h2 className='text-2xl'>Data Engineer and Analytics Enthusiast</h2>
+      <p className='py-8 text-zinc-400 max-w-xl'>My focus is on building efficient data systems and using data
+        science to empower businesses with the intelligence they need to thrive in
+        a data-driven world.</p>
+      <div className='container flex gap-10'>
+        <a href='#'>
+          <img className='object-scale-down' src="In-Blue-26-Γö¼┬½@2x.png" alt="" />
+        </a>
+        <a href='#'>
+          <img src="In-Blue-26-Γö¼┬½@2x.png" alt="" />
+        </a>
       </div>
     </div>
   )
